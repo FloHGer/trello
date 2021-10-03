@@ -1,0 +1,65 @@
+/* GENERAL */
+:root{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body{
+  margin: 1rem;
+  font-size: 1.6rem;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* REACT */
+
+h1{
+  margin: 1rem 0;
+}
+
+.lists{
+  display: flex;
+}
+
+.list{
+  margin-right: 5rem;
+  padding: 1rem;
+  border: .2rem solid #0ad;
+  border-radius: .5rem;
+  background: #ebebf0;
+}
+
+.list h2{
+  font-size: 2rem;
+  padding-left: 1rem;
+  color: #666;
+}
+
+.entries{
+  height: 100%;
+  overflow-y: auto;
+  max-width: 30rem;
+  max-height: 50rem;
+}
+
+.entry{
+  display: flex;
+  border-radius: .5rem;
+  margin: 1rem .5rem .5rem .5rem;
+  padding: .5rem;
+  background: #fff;
+  box-shadow: .2rem .2rem .2rem #888;
+  color: #222;
+}
+
+.delete{
+  margin-left: auto;
+  height: 100%;
+}
